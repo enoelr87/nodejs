@@ -1,0 +1,11 @@
+### Recuperar informação
+GET http://localhost:3000/pokemon/ditto HTTP/1.1
+
+### crear informação
+POST http://localhost:3000/pokemon HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "ditto",
+    "type": "normal"
+}

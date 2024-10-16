@@ -1,0 +1,35 @@
+{
+  "name": "node-course",
+  "version": "1.0.0",
+  "description": "Curso de Node",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon .\\clase2\\express.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enoelr87/nodejs.git"
+  },
+  "keywords": [
+    "curso",
+    "nodejs"
+  ],
+  "author": "Enoel Ramirez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/enoelr87/nodejs/issues"
+  },
+  "homepage": "https://github.com/enoelr87/nodejs#readme",
+  "dependencies": {
+    "express": "4.21.1",
+    "picocolors": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "standard": "^17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
